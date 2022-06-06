@@ -22,7 +22,7 @@ int main(){
     t.falar();
     u.falar();
 
-    std::cout << "Funcionando main !" << std::endl;
+    std::cout << "Hello World !" << std::endl;
 
     return 0;
 }
