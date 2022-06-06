@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/lucas/Desktop/VPLS-2/POKEMON'
+g++ -std=c++11 -Wall ./build/*.o -o main
+make: Leaving directory '/home/lucas/Desktop/VPLS-2/POKEMON'
+ 
