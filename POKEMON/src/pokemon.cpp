@@ -12,14 +12,7 @@ Pokemon::Pokemon(string _nome, string _tipo, string _pEvol, double _fA, double _
 }
 
 // construtor copy
-Pokemon::Pokemon(const Pokemon& _pok){
-    nome = _pok.nome;
-    tipo = _pok.tipo;
-    forcaAtaque = _pok.forcaAtaque;
-    forcaDefesa = _pok.forcaDefesa;
-    proxEvolucao = _pok.proxEvolucao;
-    saude = _pok.saude;
-}
+
 
 string Pokemon::getName(){
     return nome;

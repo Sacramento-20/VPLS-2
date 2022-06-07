@@ -7,7 +7,8 @@ class PokemonCapturado : public Pokemon{
 
     public:
         // construtor
-        PokemonCapturado(const Pokemon& _pok);
-        
+        PokemonCapturado(Pokemon& _pok);
+
+
         void evoluir(double taxaPoder);
 };
