@@ -1,6 +1,6 @@
 #include <iostream>
 
-class classe3{
+class Pokebola{
 
     public:
 

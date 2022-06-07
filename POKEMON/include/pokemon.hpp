@@ -7,7 +7,7 @@ using std::string;
 
 class Pokemon{
 
-    private: 
+    protected: 
         std::string nome;
         std::string tipo;
         double forcaAtaque;
