@@ -1,8 +1,13 @@
-#include <iostream>
+#include "pokemon.hpp"
 
-class classe5{
+class PokemonCapturado : public Pokemon{
+    private:
+        bool evoluido;
+        bool dormindo;
 
     public:
-
-        void falar();
+        // construtor
+        PokemonCapturado(const Pokemon& _pok);
+        
+        void evoluir(double taxaPoder);
 };

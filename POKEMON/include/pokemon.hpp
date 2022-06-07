@@ -16,8 +16,12 @@ class Pokemon{
         double saude = 0;
     
     public:
+        
         //construtor
         Pokemon(string _nome, string _tipo, string _pEvol, double _fA, double _fD, double _saude);
+        // construtor copy
+        Pokemon(const Pokemon& _pok);
+        
         // funções
         string getName();
 

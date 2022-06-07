@@ -1,5 +1,7 @@
 #include "pokemon.hpp"
 
+
+// construtor 
 Pokemon::Pokemon(string _nome, string _tipo, string _pEvol, double _fA, double _fD, double _saude){
     nome = _nome;
     tipo = _tipo;
@@ -7,6 +9,16 @@ Pokemon::Pokemon(string _nome, string _tipo, string _pEvol, double _fA, double _
     forcaDefesa = _fD;
     proxEvolucao = _pEvol;
     saude = _saude;
+}
+
+// construtor copy
+Pokemon::Pokemon(const Pokemon& _pok){
+    nome = _pok.nome;
+    tipo = _pok.tipo;
+    forcaAtaque = _pok.forcaAtaque;
+    forcaDefesa = _pok.forcaDefesa;
+    proxEvolucao = _pok.proxEvolucao;
+    saude = _pok.saude;
 }
 
 string Pokemon::getName(){
